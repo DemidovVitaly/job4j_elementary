@@ -1,4 +1,4 @@
 package ru.job4j.converter;
 
-public class Echo1 {
+public class eererer {
 }
