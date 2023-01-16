@@ -64,4 +64,15 @@ public class X2Test {
         int rsl = X2.calc(a, b, c, x);
         Assert.assertEquals(expected, rsl);
     }
+
+    @Test
+    public void whenA1B1C1X2Then7() {
+        int a = 1;
+        int b = 1;
+        int c = 1;
+        int x = 2;
+        int expected = 7;
+        int rsl = X2.calc(a, b, c, x);
+        Assert.assertEquals(expected, rsl);
+    }
 }
